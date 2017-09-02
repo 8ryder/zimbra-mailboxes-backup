@@ -8,6 +8,7 @@ https://wiki.zimbra.com/wiki/Zmmailbox ( see Export/import an entire account sec
 
 
 USAGE
+
 -d, --domain WORD                       backup accounts with the specified WORD in the name, insert @domain.ltd for filtering by domain
 
 -f, --folder /PATH/TO/DIRECTORY         backup to specified path, default /opt/zimbra/backup/mailbox can be modified in the script file
