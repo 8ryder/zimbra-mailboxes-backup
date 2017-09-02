@@ -11,8 +11,9 @@ function help
 		USAGE
 		-d, --domain WORD			backup accounts with the specified WORD in the name, insert @domain.ltd for filtering by domain
 		-f, --folder /PATH/TO/DIRECTORY		backup to specified path, default /opt/zimbra/backup/mailbox can be modified in the script file
-		-k, --keep X				keep X previous backups, by default 5. The older backups will be automatically deleted. The default number can be modified in the script file.
-		
+                -k, --keep X                            keep X previous backups, by default 5. The older backups will be automatically deleted. Has to be integer, the default number can be modified in the script file.
+                -h, --help                              display this help
+
                 "
 		}  
 
