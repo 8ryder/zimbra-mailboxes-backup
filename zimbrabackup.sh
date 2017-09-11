@@ -89,9 +89,9 @@ echo ----
 
 #here we test if domain variable is set and then chose accounts to backup
 if [ -z $DOMAIN ]; then
-	ACCOUNTS=$(zmprov -l gaa)
+	ACCOUNTS=$(/opt/zimbra/bin/zmprov -l gaa)
 else
-	ACCOUNTS=$(zmprov -l gaa | grep $DOMAIN)
+	ACCOUNTS=$(/opt/zimbra/bin/zmprov -l gaa | grep $DOMAIN)
 fi
 
 for account in $ACCOUNTS; 
